@@ -1,0 +1,440 @@
+{
+  "scan_time": "2026-03-13 19:18:38",
+  "flags_found": [
+    {
+      "flag": "bit26{1_0p3n_v13w3r}",
+      "location": "/var/www/html/ctf/db.sql"
+    },
+    {
+      "flag": "bit26{0p3n_p4635_f1le}",
+      "location": "/var/www/html/ctf/pages.php"
+    },
+    {
+      "flag": "bit26{0p3n_c0nf16_f1le}",
+      "location": "/var/www/html/ctf/config.php"
+    },
+    {
+      "flag": "bit26{0p3n_h7m1_f1le}",
+      "location": "/var/www/html/ctf/index.php"
+    },
+    {
+      "flag": "bit26{флаг}",
+      "location": "/home/yota/Рабочий стол/Письмо Цезаря.txt"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "type": "world_readable",
+      "path": "/etc/passwd",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/etc/pam.d/passwd",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/etc/pam.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/etc/opensc/opensc.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/etc/request-key.d/id_resolver.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/etc/request-key.d/cifs.spnego.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/etc/request-key.d/cifs.idmap.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/var/www/html/ctf/db.sql",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/var/www/html/ctf/pages.php",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/var/www/html/ctf/config.php",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/var/www/html/ctf/index.php",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/var/www/html/index.html",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/var/www/html/index.nginx-debian.html",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "world_readable",
+      "path": "/var/lib/NetworkManager/NetworkManager-intern.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/var/lib/ucf/cache/:etc:samba:smb.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/var/lib/ucf/cache/:etc:idmapd.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/var/lib/ucf/cache/:etc:nfs.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/var/lib/ucf/cache/:etc:postgresql-common:createcluster.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/var/lib/nfs/sm.bak",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/var/lib/pam/password",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/home/yota/Рабочий стол/.directory",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/home/yota/Рабочий стол/Письмо Цезаря.txt",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/home/yota/.java/.userPrefs/burp/prefs.xml",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/home/yota/.cache/xdg-desktop-portal-kde/qmlcache/363c96cdd203202565c923f4fbb85ed6b9e97649.qmlc",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/home/yota/.cache/xdg-desktop-portal-kde/qmlcache/34a1b494a384834698e218ed2fd98faaeef4ede3.qmlc",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/home/yota/.cache/xdg-desktop-portal-kde/qmlcache/4cee84cdf75080276e9b181c586fdca371e67cda.qmlc",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/home/yota/.cache/xdg-desktop-portal-kde/qmlcache/1686e662ab3914aaaeccad12e7efb09b2bcf18d2.qmlc",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/home/yota/.cache/xdg-desktop-portal-kde/qmlcache/3ed84233ff2d7c30c664af84a946486c43cf4c62.qmlc",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/home/yota/.cache/xdg-desktop-portal-kde/qmlcache/913253ab3eac9220d7f2b77d691f5115ec1e0786.qmlc",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "dangerous_permissions",
+      "path": "/home/yota/.cache/xdg-desktop-portal-kde/qmlcache/493773b0d1c474ff4063913b47c5ae9a0e1e0728.qmlc",
+      "permissions": "777",
+      "risk": "Файл доступен на чтение/запись/исполнение всем пользователям"
+    },
+    {
+      "type": "world_readable",
+      "path": "/home/yota/.config/xsettingsd/xsettingsd.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/home/yota/.config/Trolltech.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/home/yota/.config/KDE/UserFeedback.conf",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "world_readable",
+      "path": "/home/yota/.local/share/user-places.xbel.bak",
+      "risk": "Конфиденциальный файл доступен для чтения всем"
+    },
+    {
+      "type": "open_port",
+      "details": "tcp   LISTEN 0      80         127.0.0.1:3306      0.0.0.0:*    users:((\"mariadbd\",pid=833,fd=30))",
+      "port": "3306",
+      "service": "MySQL",
+      "risk": "Возможен доступ без пароля"
+    },
+    {
+      "type": "package_info",
+      "package": "openssh-server",
+      "version": "OpenSSH_10.2p1 Debian-2, OpenSSL 3.5.4 30 Sep 2025",
+      "info": "Проверьте актуальность версии"
+    },
+    {
+      "type": "package_info",
+      "package": "apache2",
+      "version": "Server version: Apache/2.4.66 (Debian)\nServer buil",
+      "info": "Проверьте актуальность версии"
+    },
+    {
+      "type": "package_info",
+      "package": "nginx",
+      "version": "nginx version: nginx/1.28.0",
+      "info": "Проверьте актуальность версии"
+    },
+    {
+      "type": "package_info",
+      "package": "mysql-server",
+      "version": "mysql from 11.8.3-MariaDB, client 15.2 for debian-",
+      "info": "Проверьте актуальность версии"
+    },
+    {
+      "type": "package_info",
+      "package": "postgresql",
+      "version": "psql (PostgreSQL) 18.1 (Debian 18.1-1)",
+      "info": "Проверьте актуальность версии"
+    },
+    {
+      "type": "hacking_tools",
+      "details": "Установлен Metasploit Framework",
+      "risk": "Потенциально опасные инструменты установлены в системе"
+    },
+    {
+      "type": "sudo_without_password",
+      "risk": "Возможно выполнение sudo без пароля"
+    }
+  ],
+  "recommendations": [
+    {
+      "issue": "Файл /etc/passwd доступен для чтения всем",
+      "fix": "sudo chmod 640 /etc/passwd",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /etc/pam.d/passwd доступен для чтения всем",
+      "fix": "sudo chmod 640 /etc/pam.d/passwd",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /etc/pam.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /etc/pam.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /etc/opensc/opensc.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /etc/opensc/opensc.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /etc/request-key.d/id_resolver.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /etc/request-key.d/id_resolver.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /etc/request-key.d/cifs.spnego.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /etc/request-key.d/cifs.spnego.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /etc/request-key.d/cifs.idmap.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /etc/request-key.d/cifs.idmap.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /var/www/html/ctf/db.sql имеет права 777",
+      "fix": "sudo chmod 644 /var/www/html/ctf/db.sql",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /var/www/html/ctf/pages.php имеет права 777",
+      "fix": "sudo chmod 644 /var/www/html/ctf/pages.php",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /var/www/html/ctf/config.php имеет права 777",
+      "fix": "sudo chmod 644 /var/www/html/ctf/config.php",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /var/www/html/ctf/index.php имеет права 777",
+      "fix": "sudo chmod 644 /var/www/html/ctf/index.php",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /var/www/html/index.html имеет права 777",
+      "fix": "sudo chmod 644 /var/www/html/index.html",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /var/www/html/index.nginx-debian.html имеет права 777",
+      "fix": "sudo chmod 644 /var/www/html/index.nginx-debian.html",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /var/lib/NetworkManager/NetworkManager-intern.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /var/lib/NetworkManager/NetworkManager-intern.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /var/lib/ucf/cache/:etc:samba:smb.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /var/lib/ucf/cache/:etc:samba:smb.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /var/lib/ucf/cache/:etc:idmapd.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /var/lib/ucf/cache/:etc:idmapd.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /var/lib/ucf/cache/:etc:nfs.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /var/lib/ucf/cache/:etc:nfs.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /var/lib/ucf/cache/:etc:postgresql-common:createcluster.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /var/lib/ucf/cache/:etc:postgresql-common:createcluster.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /var/lib/nfs/sm.bak доступен для чтения всем",
+      "fix": "sudo chmod 640 /var/lib/nfs/sm.bak",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /var/lib/pam/password доступен для чтения всем",
+      "fix": "sudo chmod 640 /var/lib/pam/password",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /home/yota/Рабочий стол/.directory имеет права 777",
+      "fix": "sudo chmod 644 /home/yota/Рабочий стол/.directory",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /home/yota/Рабочий стол/Письмо Цезаря.txt имеет права 777",
+      "fix": "sudo chmod 644 /home/yota/Рабочий стол/Письмо Цезаря.txt",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /home/yota/.java/.userPrefs/burp/prefs.xml имеет права 777",
+      "fix": "sudo chmod 644 /home/yota/.java/.userPrefs/burp/prefs.xml",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/363c96cdd203202565c923f4fbb85ed6b9e97649.qmlc имеет права 777",
+      "fix": "sudo chmod 644 /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/363c96cdd203202565c923f4fbb85ed6b9e97649.qmlc",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/34a1b494a384834698e218ed2fd98faaeef4ede3.qmlc имеет права 777",
+      "fix": "sudo chmod 644 /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/34a1b494a384834698e218ed2fd98faaeef4ede3.qmlc",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/4cee84cdf75080276e9b181c586fdca371e67cda.qmlc имеет права 777",
+      "fix": "sudo chmod 644 /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/4cee84cdf75080276e9b181c586fdca371e67cda.qmlc",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/1686e662ab3914aaaeccad12e7efb09b2bcf18d2.qmlc имеет права 777",
+      "fix": "sudo chmod 644 /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/1686e662ab3914aaaeccad12e7efb09b2bcf18d2.qmlc",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/3ed84233ff2d7c30c664af84a946486c43cf4c62.qmlc имеет права 777",
+      "fix": "sudo chmod 644 /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/3ed84233ff2d7c30c664af84a946486c43cf4c62.qmlc",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/913253ab3eac9220d7f2b77d691f5115ec1e0786.qmlc имеет права 777",
+      "fix": "sudo chmod 644 /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/913253ab3eac9220d7f2b77d691f5115ec1e0786.qmlc",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/493773b0d1c474ff4063913b47c5ae9a0e1e0728.qmlc имеет права 777",
+      "fix": "sudo chmod 644 /home/yota/.cache/xdg-desktop-portal-kde/qmlcache/493773b0d1c474ff4063913b47c5ae9a0e1e0728.qmlc",
+      "description": "Исправьте права доступа на более безопасные"
+    },
+    {
+      "issue": "Файл /home/yota/.config/xsettingsd/xsettingsd.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /home/yota/.config/xsettingsd/xsettingsd.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /home/yota/.config/Trolltech.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /home/yota/.config/Trolltech.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /home/yota/.config/KDE/UserFeedback.conf доступен для чтения всем",
+      "fix": "sudo chmod 640 /home/yota/.config/KDE/UserFeedback.conf",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Файл /home/yota/.local/share/user-places.xbel.bak доступен для чтения всем",
+      "fix": "sudo chmod 640 /home/yota/.local/share/user-places.xbel.bak",
+      "description": "Ограничьте доступ к файлу"
+    },
+    {
+      "issue": "Открыт опасный порт 3306 (MySQL)",
+      "fix": "sudo ufw deny 3306",
+      "description": "Возможен доступ без пароля"
+    }
+  ],
+  "system_info": {
+    "kernel": "Linux bit 6.16.8+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.16.8-1kali1 (2025-09-24) x86_64 GNU/Linux",
+    "hostname": "bit"
+  }
+}
