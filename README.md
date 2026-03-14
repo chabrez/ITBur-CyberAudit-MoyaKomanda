@@ -1,4 +1,4 @@
-# ITBur-CyberAudit-НазваниеКоманды
+# ITBur-CyberAudit-KyberChaos
 
 Инструмент автоматического аудита безопасности Linux для поиска уязвимостей и флагов формата `bit26{...}`.
 
@@ -32,5 +32,5 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com//ITBur-CyberAudit-KyberChaos.git
+git clone https://github.com/chabrez/ITBur-CyberAudit-KyberChaos.git
 cd ITBur-CyberAudit-KyberChaos
